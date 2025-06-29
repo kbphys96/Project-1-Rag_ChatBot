@@ -39,12 +39,12 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 pip install -r requirements.txt
 
 
-3. Add Hugging Face API Token
+### 3. Add Hugging Face API Token
 Go to huggingface.co/settings/tokens
 
 Create a token (read access is enough)
@@ -54,12 +54,12 @@ Create a .env file with the following line:
 HUGGINGFACEHUB_API_TOKEN=your_token_here
 
 
-4. Run the App
+### 4. Run the App
 
 streamlit run app.py
 
 
-📝 Example Prompt
+### 📝 Example Prompt
 arduino
 Copy
 Edit
@@ -69,7 +69,7 @@ Edit
 
 
 
-📌 Notes
+### 📌 Notes
 Uses UnstructuredPDFLoader to parse text from your uploaded PDF.
 
 The document is chunked and embedded using sentence-transformers/all-MiniLM-L6-v2.
@@ -78,12 +78,12 @@ Model: google/flan-t5-large (free, zero-cost on Hugging Face Hub).
 
 
 
-🔐 Security
+### 🔐 Security
 No sensitive data is logged or transmitted externally.
 
 Your Hugging Face token is stored locally in .env.
 
-📧 Author
+### 📧 Author
 Kulbhushan Nautiyal
 📬 kbphys96@gmail.com
 🔗 LinkedIn
