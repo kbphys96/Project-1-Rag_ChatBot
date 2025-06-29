@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+
+# Chroma vector database
+db/
+
+# IDE
+.vscode/
+.idea/
+
+# Unstructured files
+*.pdf
