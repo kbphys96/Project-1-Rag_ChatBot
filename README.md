@@ -32,32 +32,35 @@ This is a Retrieval-Augmented Generation (RAG) chatbot powered by a fine-tuned o
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repo
+## 1. Clone the Repo
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
+```
+## 2. Install Dependencies
 
-### 2. Install Dependencies
-
+```bash
 pip install -r requirements.txt
 
-
-### 3. Add Hugging Face API Token
+```
+## 3. Add Hugging Face API Token
 Go to huggingface.co/settings/tokens
 
 Create a token (read access is enough)
 
 Create a .env file with the following line:
 
+```bash
 HUGGINGFACEHUB_API_TOKEN=your_token_here
+```
 
+## 4. Run the App
 
-### 4. Run the App
-
+```bash
 streamlit run app.py
-
+```
 
 ### 📝 Example Prompt
 arduino
