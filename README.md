@@ -13,11 +13,11 @@ This is a Retrieval-Augmented Generation (RAG) chatbot powered by a fine-tuned o
 ## 📂 Directory Structure
 
 📁 your-project/
-├── Kulbhushan_Nautiyal_Resume.pdf # Your source document
-├── app.py # Main Streamlit app
-├── .env # Hugging Face API token
-├── db/ # Vector store (auto-generated)
-└── README.md # This file
+ Kulbhushan_Nautiyal_Resume.pdf # Your source document
+ app.py # Main Streamlit app
+ .env # Hugging Face API token
+ db/ # Vector store (auto-generated)
+ README.md # This file
 
 
 ## 🧠 Tech Stack
