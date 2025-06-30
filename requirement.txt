@@ -1,0 +1,22 @@
+# Core Packages
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-core==0.2.1
+streamlit==1.36.0
+python-dotenv==1.0.1
+
+# Embeddings & Vector Store
+sentence-transformers==3.0.0
+chromadb==0.5.0
+huggingface-hub==0.23.3
+
+# Document Processing
+unstructured[pdf]==0.13.0
+pypdf==4.2.0
+
+# LLM Backend
+transformers==4.41.2
+torch==2.3.0
+
+# Optional (GPU support)
+# cupy-cuda12x==13.0.0  # Uncomment if using NVIDIA GPU
