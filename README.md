@@ -26,8 +26,8 @@ This is a Retrieval-Augmented Generation (RAG) chatbot powered by a fine-tuned o
 ## 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/kbphys96/Project-1-Rag_ChatBot.git
+cd Project-1-Rag_ChatBot
 
 ```
 ## 2. Install Dependencies
@@ -44,7 +44,7 @@ Create a token (read access is enough)
 Create a .env file with the following line:
 
 ```bash
-HUGGINGFACEHUB_API_TOKEN=your_token_here
+HUGGINGFACEHUB_API_TOKEN=*******************
 ```
 
 ## 4. Run the App
