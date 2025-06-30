@@ -10,16 +10,6 @@ This is a Retrieval-Augmented Generation (RAG) chatbot powered by a fine-tuned o
 - Clean and interactive Streamlit interface
 - Lightweight and free (no OpenAI or paid API required)
 
-## 📂 Directory Structure
-
-📁 your-project/
-your-project/
-├── 📄 app.py # Main Streamlit application
-├── 📄 Kulbhushan_Nautiyal_Resume.pdf # Sample document for processing
-├── 📄 README.md # Project documentation (this file)
-├── 📄 .env # Environment variables (API keys)
-├── 📄 requirements.txt # Python dependencies
-└── 📁 db/ # Chroma vector database (auto-generated)
 
 ## 🧠 Tech Stack
 
