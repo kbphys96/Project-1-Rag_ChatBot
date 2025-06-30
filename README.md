@@ -1,4 +1,4 @@
-# 📄 Physics + General Knowledge Chatbot 🤖
+# 📄 PDF + GK Chatbot 🤖
 
 This is a Retrieval-Augmented Generation (RAG) chatbot powered by a fine-tuned open-source language model and your own PDF document (e.g., resume, academic papers). Built using **LangChain**, **Streamlit**, and **Hugging Face Transformers**, this app allows you to ask natural language questions and get intelligent responses based on both your document and general knowledge.
 
